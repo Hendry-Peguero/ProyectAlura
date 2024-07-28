@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador y Desencriptador</title>
+    <link rel="stylesheet" href="/CSS/Estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encriptador</h1>
+        <textarea id="inputText" placeholder="Ingresa tu texto aquí"></textarea>
+        <div class="options">
+            <select id="actionSelect">
+                <option value="encrypt">Encriptar</option>
+                <option value="decrypt">Desencriptar</option>
+            </select>
+            <button onclick="processText()">Procesar</button>
+        </div>
+        <textarea id="outputText" placeholder="Resultado" readonly></textarea>
+        <button class="copy-button" onclick="copyToClipboard()">Copiar Resultado</button>
+    </div>
+
+    <script src="/JS/logica.js"></script>
+</body>
+</html>
