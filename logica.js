@@ -11,7 +11,7 @@ function processText() {
 
     document.getElementById('outputText').value = outputText;
 }
-
+//
 function encryptText(text) {
     return text.replace(/e/g, 'enter')
                .replace(/i/g, 'imes')
