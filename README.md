@@ -32,3 +32,6 @@ Las llaves utilizadas para la encriptación son las siguientes:
 - HTML
 - CSS
 - JavaScript
+
+![Encriptador](https://github.com/user-attachments/assets/e331a9bd-f452-4701-8602-be8292bc2b88)
+
